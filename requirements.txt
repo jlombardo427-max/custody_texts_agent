@@ -1,5 +1,15 @@
+# Web Interface & UI
+streamlit>=1.31.0
 
-pandas>=2.0.0
-requests>=2.31.0
-tqdm>=4.66.0
+# Data Processing & Analytics
+pandas>=2.1.0
+plotly>=5.18.0
+
+# Document Generation & Image Processing
 python-docx>=1.1.0
+pytesseract>=0.3.10
+pillow>=10.1.0
+
+# AI & Utilities
+ollama>=0.1.6
+tqdm>=4.66.0
