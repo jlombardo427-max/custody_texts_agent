@@ -1,0 +1,9 @@
+
+.venv/
+__pycache__/
+*.pyc
+
+# never upload message data / outputs
+data/working/*
+data/output/*
+!data/output/.keep
