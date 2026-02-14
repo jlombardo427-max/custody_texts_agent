@@ -1,0 +1,448 @@
+2026-01-05 01:36:29,255 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 01:36:29,255 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 01:36:29,255 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 01:36:29,255 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 01:36:29,261 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 01:36:29,273 | INFO | Thread Kirby Eldredge: received msgs=6218 | to tag now=6190
+2026-01-05 01:36:46,964 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 01:36:46,964 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 01:36:46,967 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 01:36:46,967 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 01:36:46,970 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 01:36:46,981 | INFO | Thread Kirby Eldredge: received msgs=6218 | to tag now=6190
+2026-01-05 01:40:34,456 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 01:40:34,458 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 01:40:34,458 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 01:40:34,458 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 01:40:34,461 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 01:48:43,958 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 01:48:43,958 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 01:48:43,958 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 01:48:43,958 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 01:48:43,962 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 01:58:21,864 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 01:58:21,864 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 01:58:21,864 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 01:58:21,864 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 01:58:21,869 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 02:01:17,618 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 02:01:17,618 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 02:01:17,618 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 02:01:17,619 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 02:01:17,622 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 02:02:13,527 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 02:02:13,527 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 02:02:13,527 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 02:02:13,527 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 02:02:13,531 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 02:06:57,879 | INFO | RESUME: checkpoint has 30 already-tagged messages.
+2026-01-05 02:06:57,879 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 02:06:57,879 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 02:06:57,879 | INFO | Model: custody-mistral | Context: before=6 after=6
+2026-01-05 02:06:57,889 | INFO | Loaded 30 rows from checkpoint into output buffer.
+2026-01-05 02:19:37,196 | INFO | Model: mistral
+2026-01-05 02:19:37,197 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 02:19:37,197 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 02:19:37,197 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 02:19:37,197 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 02:33:48,673 | INFO | Model: custody-mistral
+2026-01-05 02:33:48,673 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 02:33:48,673 | INFO | Total received messages: 6218 | Remaining: 6188
+2026-01-05 02:33:48,674 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 02:33:48,674 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 02:46:08,870 | INFO | AUTOSAVE checkpoint: rows=35 processed_this_run=5 errors=0
+2026-01-05 03:04:32,088 | INFO | AUTOSAVE checkpoint: rows=40 processed_this_run=10 errors=0
+2026-01-05 06:54:12,037 | INFO | AUTOSAVE checkpoint: rows=45 processed_this_run=15 errors=0
+2026-01-05 06:59:28,753 | INFO | Model: custody-llama
+2026-01-05 06:59:28,753 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 06:59:28,753 | INFO | Total received messages: 6218 | Remaining: 6173
+2026-01-05 06:59:28,753 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 06:59:28,754 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 07:07:32,088 | INFO | Model: custody-llama
+2026-01-05 07:07:32,089 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 07:07:32,089 | INFO | Total received messages: 6218 | Remaining: 6173
+2026-01-05 07:07:32,089 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 07:07:32,089 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 07:25:30,595 | ERROR | Autosave failed: [WinError 5] Access is denied: 'data/output/messages_tagged_checkpoint.csv.tmp' -> 'data/output/messages_tagged_checkpoint.csv'
+Traceback (most recent call last):
+  File "C:\Users\Administrator\Documents\custody_texts_agent\src\tagger.py", line 609, in main
+    autosave(out_rows, CHECKPOINT_PATH)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\Documents\custody_texts_agent\src\tagger.py", line 478, in autosave
+    os.replace(tmp_path, path)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'data/output/messages_tagged_checkpoint.csv.tmp' -> 'data/output/messages_tagged_checkpoint.csv'
+2026-01-05 07:45:36,047 | INFO | Model: mistral
+2026-01-05 07:45:36,048 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 07:45:36,048 | INFO | Total received messages: 6218 | Remaining: 6173
+2026-01-05 07:45:36,048 | INFO | Context: before=6 after=6
+2026-01-05 07:45:36,048 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 07:45:36,048 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 08:14:48,076 | INFO | AUTOSAVE checkpoint: rows=50 processed_this_run=5 errors=0
+2026-01-05 09:26:29,743 | INFO | Model: mistral
+2026-01-05 09:26:29,745 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 09:26:29,745 | INFO | Total received messages: 6218 | Remaining: 6168
+2026-01-05 09:26:29,746 | INFO | Context: before=6 after=6
+2026-01-05 09:26:29,747 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 09:26:29,747 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 09:40:13,504 | INFO | AUTOSAVE checkpoint: rows=55 processed_this_run=5 errors=0
+2026-01-05 09:57:51,965 | INFO | AUTOSAVE checkpoint: rows=60 processed_this_run=10 errors=0
+2026-01-05 11:12:17,229 | INFO | AUTOSAVE checkpoint: rows=65 processed_this_run=15 errors=0
+2026-01-05 11:29:01,200 | INFO | Model: mistral
+2026-01-05 11:29:01,201 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 11:29:01,202 | INFO | Total received messages: 6218 | Remaining: 6153
+2026-01-05 11:29:01,202 | INFO | Context: before=6 after=6
+2026-01-05 11:29:01,202 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 11:29:01,202 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 11:42:58,698 | INFO | AUTOSAVE checkpoint: rows=70 processed_this_run=5 errors=0
+2026-01-05 11:55:46,410 | INFO | AUTOSAVE checkpoint: rows=75 processed_this_run=10 errors=0
+2026-01-05 12:07:14,056 | INFO | AUTOSAVE checkpoint: rows=80 processed_this_run=15 errors=0
+2026-01-05 12:19:02,900 | INFO | AUTOSAVE checkpoint: rows=85 processed_this_run=20 errors=0
+2026-01-05 12:32:08,400 | INFO | AUTOSAVE checkpoint: rows=90 processed_this_run=25 errors=0
+2026-01-05 12:47:22,555 | INFO | AUTOSAVE checkpoint: rows=95 processed_this_run=30 errors=0
+2026-01-05 13:02:44,386 | INFO | AUTOSAVE checkpoint: rows=100 processed_this_run=35 errors=0
+2026-01-05 13:08:29,797 | INFO | Model: mistral
+2026-01-05 13:08:29,797 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 13:08:29,797 | INFO | Total received messages: 6218 | Remaining: 6118
+2026-01-05 13:08:29,798 | INFO | Context: before=6 after=6
+2026-01-05 13:08:29,803 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 13:08:29,803 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 13:22:52,646 | INFO | AUTOSAVE checkpoint: rows=105 processed_this_run=5 errors=0
+2026-01-05 13:35:32,305 | INFO | AUTOSAVE checkpoint: rows=110 processed_this_run=10 errors=0
+2026-01-05 13:52:41,919 | INFO | AUTOSAVE checkpoint: rows=115 processed_this_run=15 errors=0
+2026-01-05 14:05:21,753 | INFO | AUTOSAVE checkpoint: rows=120 processed_this_run=20 errors=0
+2026-01-05 14:19:19,339 | INFO | AUTOSAVE checkpoint: rows=125 processed_this_run=25 errors=0
+2026-01-05 14:33:25,650 | INFO | AUTOSAVE checkpoint: rows=130 processed_this_run=30 errors=0
+2026-01-05 14:51:46,664 | INFO | AUTOSAVE checkpoint: rows=135 processed_this_run=35 errors=0
+2026-01-05 15:06:48,964 | INFO | AUTOSAVE checkpoint: rows=140 processed_this_run=40 errors=0
+2026-01-05 15:24:59,601 | INFO | AUTOSAVE checkpoint: rows=145 processed_this_run=45 errors=0
+2026-01-05 15:38:30,765 | INFO | AUTOSAVE checkpoint: rows=150 processed_this_run=50 errors=0
+2026-01-05 15:38:30,765 | INFO | Progress: +50 this run | total tagged=150 | errors=0
+2026-01-05 15:50:44,281 | INFO | AUTOSAVE checkpoint: rows=155 processed_this_run=55 errors=0
+2026-01-05 16:07:24,456 | INFO | AUTOSAVE checkpoint: rows=160 processed_this_run=60 errors=0
+2026-01-05 16:37:53,431 | INFO | Logic version: v3.1-parallel-tones-p1plus-avoidance
+2026-01-05 16:37:53,431 | INFO | Model: mistral
+2026-01-05 16:37:53,432 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 16:37:53,432 | INFO | Total received messages: 6218 | Remaining (est): 6218
+2026-01-05 16:37:53,433 | INFO | Context: before=3 after=2
+2026-01-05 16:37:53,433 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 16:37:53,433 | INFO | Parallel workers: 4
+2026-01-05 16:37:53,433 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 16:51:45,397 | INFO | Logic version: v3.1-parallel-tones-p1plus-avoidance
+2026-01-05 16:51:45,397 | INFO | Model: mistral
+2026-01-05 16:51:45,398 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 16:51:45,398 | INFO | Total received messages: 6218 | Remaining (est): 6218
+2026-01-05 16:51:45,399 | INFO | Context: before=3 after=2
+2026-01-05 16:51:45,399 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 16:51:45,399 | INFO | Parallel workers: 4
+2026-01-05 16:51:45,399 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 16:51:49,108 | INFO | Work items to process (after resume filter): 6218
+2026-01-05 17:07:26,758 | INFO | Logic version: v3.1-parallel-tones-p1plus-avoidance
+2026-01-05 17:07:26,758 | INFO | Model: mistral
+2026-01-05 17:07:26,759 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-05 17:07:26,759 | INFO | Total received messages: 6218 | Remaining (est): 6218
+2026-01-05 17:07:26,759 | INFO | Context: before=3 after=2
+2026-01-05 17:07:26,759 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-05 17:07:26,759 | INFO | Parallel workers: 4
+2026-01-05 17:07:26,759 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-05 17:07:29,775 | INFO | Work items to process (after resume filter): 6218
+2026-01-05 17:24:04,956 | INFO | AUTOSAVE checkpoint: rows=5 processed_this_run=5 errors=0
+2026-01-05 17:35:09,854 | INFO | AUTOSAVE checkpoint: rows=10 processed_this_run=10 errors=0
+2026-01-05 17:44:23,210 | INFO | AUTOSAVE checkpoint: rows=15 processed_this_run=15 errors=0
+2026-01-05 17:53:36,531 | INFO | AUTOSAVE checkpoint: rows=20 processed_this_run=20 errors=0
+2026-01-05 18:10:11,571 | INFO | AUTOSAVE checkpoint: rows=25 processed_this_run=25 errors=0
+2026-01-05 18:20:09,659 | INFO | AUTOSAVE checkpoint: rows=30 processed_this_run=30 errors=0
+2026-01-06 09:46:23,869 | INFO | Logic version: v3.1-parallel-tones-p1plus-avoidance
+2026-01-06 09:46:23,870 | INFO | Model: custody-llama
+2026-01-06 09:46:23,870 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-06 09:46:23,870 | INFO | Total received messages: 6218 | Remaining (est): 6218
+2026-01-06 09:46:23,870 | INFO | Context: before=3 after=2
+2026-01-06 09:46:23,870 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-06 09:46:23,870 | INFO | Parallel workers: 4
+2026-01-06 09:46:23,870 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-06 09:46:25,700 | INFO | Work items to process (after resume filter): 6218
+2026-01-06 09:55:39,058 | INFO | AUTOSAVE checkpoint: rows=5 processed_this_run=5 errors=0
+2026-01-06 10:09:22,410 | INFO | AUTOSAVE checkpoint: rows=10 processed_this_run=10 errors=0
+2026-01-06 10:20:10,738 | INFO | AUTOSAVE checkpoint: rows=15 processed_this_run=15 errors=0
+2026-01-06 10:32:32,383 | INFO | AUTOSAVE checkpoint: rows=20 processed_this_run=20 errors=0
+2026-01-06 10:41:45,695 | INFO | AUTOSAVE checkpoint: rows=25 processed_this_run=25 errors=0
+2026-01-06 10:55:29,232 | INFO | AUTOSAVE checkpoint: rows=30 processed_this_run=30 errors=0
+2026-01-06 11:06:13,816 | INFO | AUTOSAVE checkpoint: rows=35 processed_this_run=35 errors=0
+2026-01-06 11:18:38,987 | INFO | AUTOSAVE checkpoint: rows=40 processed_this_run=40 errors=0
+2026-01-06 11:27:52,755 | INFO | AUTOSAVE checkpoint: rows=45 processed_this_run=45 errors=0
+2026-01-06 11:39:51,711 | INFO | AUTOSAVE checkpoint: rows=50 processed_this_run=50 errors=0
+2026-01-06 11:39:51,713 | INFO | Progress: +50 this run | total tagged=50 | errors=0
+2026-01-06 11:50:49,613 | INFO | AUTOSAVE checkpoint: rows=55 processed_this_run=55 errors=0
+2026-01-06 12:02:44,485 | INFO | AUTOSAVE checkpoint: rows=60 processed_this_run=60 errors=0
+2026-01-06 12:12:55,986 | INFO | AUTOSAVE checkpoint: rows=65 processed_this_run=65 errors=0
+2026-01-06 12:23:12,526 | INFO | AUTOSAVE checkpoint: rows=70 processed_this_run=70 errors=0
+2026-01-06 12:32:26,163 | INFO | AUTOSAVE checkpoint: rows=75 processed_this_run=75 errors=0
+2026-01-06 12:48:51,721 | INFO | AUTOSAVE checkpoint: rows=80 processed_this_run=80 errors=0
+2026-01-06 12:59:03,169 | INFO | AUTOSAVE checkpoint: rows=85 processed_this_run=85 errors=0
+2026-01-06 13:09:19,123 | INFO | AUTOSAVE checkpoint: rows=90 processed_this_run=90 errors=0
+2026-01-06 13:18:32,914 | INFO | AUTOSAVE checkpoint: rows=95 processed_this_run=95 errors=0
+2026-01-06 13:34:58,334 | INFO | AUTOSAVE checkpoint: rows=100 processed_this_run=100 errors=0
+2026-01-06 13:34:58,336 | INFO | Progress: +100 this run | total tagged=100 | errors=0
+2026-01-06 13:45:09,950 | INFO | AUTOSAVE checkpoint: rows=105 processed_this_run=105 errors=0
+2026-01-06 13:55:25,952 | INFO | AUTOSAVE checkpoint: rows=110 processed_this_run=110 errors=0
+2026-01-06 14:04:39,456 | INFO | AUTOSAVE checkpoint: rows=115 processed_this_run=115 errors=0
+2026-01-06 14:13:53,044 | INFO | AUTOSAVE checkpoint: rows=120 processed_this_run=120 errors=0
+2026-01-06 14:30:18,371 | INFO | AUTOSAVE checkpoint: rows=125 processed_this_run=125 errors=0
+2026-01-06 14:40:29,919 | INFO | AUTOSAVE checkpoint: rows=130 processed_this_run=130 errors=0
+2026-01-06 14:50:46,080 | INFO | AUTOSAVE checkpoint: rows=135 processed_this_run=135 errors=0
+2026-01-06 14:59:59,603 | INFO | AUTOSAVE checkpoint: rows=140 processed_this_run=140 errors=0
+2026-01-06 15:12:14,332 | INFO | AUTOSAVE checkpoint: rows=145 processed_this_run=145 errors=0
+2026-01-06 15:25:38,722 | INFO | AUTOSAVE checkpoint: rows=150 processed_this_run=150 errors=0
+2026-01-06 15:25:38,723 | INFO | Progress: +150 this run | total tagged=150 | errors=0
+2026-01-06 15:32:56,479 | INFO | Logic version: v3.1-parallel-tones-p1plus-avoidance
+2026-01-06 15:32:56,480 | INFO | Model: custody-llama
+2026-01-06 15:32:56,480 | INFO | Tagging RECEIVED only: sender_role=THEM
+2026-01-06 15:32:56,480 | INFO | Total received messages: 6218 | Remaining (est): 6068
+2026-01-06 15:32:56,480 | INFO | Context: before=3 after=2
+2026-01-06 15:32:56,480 | INFO | Autosave/checkpoint every: 5 messages
+2026-01-06 15:32:56,480 | INFO | Parallel workers: 4
+2026-01-06 15:32:56,480 | INFO | Checkpoint file: data/output/messages_tagged_checkpoint.csv
+2026-01-06 15:32:58,147 | INFO | Work items to process (after resume filter): 6068
+2026-01-06 15:40:39,900 | INFO | AUTOSAVE checkpoint: rows=155 processed_this_run=5 errors=0
+2026-01-06 15:48:25,771 | INFO | AUTOSAVE checkpoint: rows=160 processed_this_run=10 errors=0
+2026-01-06 15:55:09,837 | INFO | AUTOSAVE checkpoint: rows=165 processed_this_run=15 errors=0
+2026-01-06 16:02:07,157 | INFO | AUTOSAVE checkpoint: rows=170 processed_this_run=20 errors=0
+2026-01-06 16:09:15,361 | INFO | AUTOSAVE checkpoint: rows=175 processed_this_run=25 errors=0
+2026-01-06 16:16:16,075 | INFO | AUTOSAVE checkpoint: rows=180 processed_this_run=30 errors=0
+2026-01-06 16:23:10,086 | INFO | AUTOSAVE checkpoint: rows=185 processed_this_run=35 errors=0
+2026-01-06 16:31:39,553 | INFO | AUTOSAVE checkpoint: rows=190 processed_this_run=40 errors=0
+2026-01-06 16:40:20,498 | INFO | AUTOSAVE checkpoint: rows=195 processed_this_run=45 errors=0
+2026-01-06 16:46:18,012 | INFO | AUTOSAVE checkpoint: rows=200 processed_this_run=50 errors=0
+2026-01-06 16:46:18,012 | INFO | Progress: +50 this run | total tagged=200 | errors=0
+2026-01-06 16:52:54,644 | INFO | AUTOSAVE checkpoint: rows=205 processed_this_run=55 errors=0
+2026-01-06 17:02:13,490 | INFO | AUTOSAVE checkpoint: rows=210 processed_this_run=60 errors=0
+2026-01-06 17:17:19,079 | INFO | AUTOSAVE checkpoint: rows=215 processed_this_run=65 errors=0
+2026-01-06 17:41:54,853 | INFO | AUTOSAVE checkpoint: rows=220 processed_this_run=70 errors=0
+2026-01-06 17:55:53,984 | INFO | AUTOSAVE checkpoint: rows=225 processed_this_run=75 errors=0
+2026-01-06 18:07:01,811 | INFO | AUTOSAVE checkpoint: rows=230 processed_this_run=80 errors=0
+2026-01-06 18:19:00,006 | INFO | AUTOSAVE checkpoint: rows=235 processed_this_run=85 errors=0
+2026-01-06 18:28:28,886 | INFO | AUTOSAVE checkpoint: rows=240 processed_this_run=90 errors=0
+2026-01-06 19:51:51,803 | INFO | AUTOSAVE checkpoint: rows=245 processed_this_run=95 errors=0
+2026-01-06 19:57:26,256 | INFO | AUTOSAVE checkpoint: rows=250 processed_this_run=100 errors=0
+2026-01-06 19:57:26,257 | INFO | Progress: +100 this run | total tagged=250 | errors=0
+2026-01-06 20:02:29,332 | INFO | AUTOSAVE checkpoint: rows=255 processed_this_run=105 errors=0
+2026-01-06 20:09:38,420 | INFO | AUTOSAVE checkpoint: rows=260 processed_this_run=110 errors=0
+2026-01-06 20:16:46,294 | INFO | AUTOSAVE checkpoint: rows=265 processed_this_run=115 errors=0
+2026-01-06 20:23:48,315 | INFO | AUTOSAVE checkpoint: rows=270 processed_this_run=120 errors=0
+2026-01-06 20:30:29,219 | INFO | AUTOSAVE checkpoint: rows=275 processed_this_run=125 errors=0
+2026-01-06 20:39:51,241 | INFO | AUTOSAVE checkpoint: rows=280 processed_this_run=130 errors=0
+2026-01-06 20:50:04,279 | INFO | AUTOSAVE checkpoint: rows=285 processed_this_run=135 errors=0
+2026-01-06 21:15:28,761 | INFO | AUTOSAVE checkpoint: rows=290 processed_this_run=140 errors=0
+2026-01-06 22:24:09,067 | INFO | AUTOSAVE checkpoint: rows=295 processed_this_run=145 errors=0
+2026-01-06 22:32:15,083 | INFO | AUTOSAVE checkpoint: rows=300 processed_this_run=150 errors=0
+2026-01-06 22:32:15,085 | INFO | Progress: +150 this run | total tagged=300 | errors=0
+2026-01-06 22:50:35,889 | INFO | AUTOSAVE checkpoint: rows=305 processed_this_run=155 errors=0
+2026-01-06 23:33:57,966 | INFO | AUTOSAVE checkpoint: rows=310 processed_this_run=160 errors=0
+2026-01-06 23:45:45,855 | INFO | AUTOSAVE checkpoint: rows=315 processed_this_run=165 errors=0
+2026-01-06 23:58:37,733 | INFO | AUTOSAVE checkpoint: rows=320 processed_this_run=170 errors=0
+2026-01-07 01:16:08,780 | INFO | AUTOSAVE checkpoint: rows=325 processed_this_run=175 errors=0
+2026-01-07 01:30:25,171 | INFO | AUTOSAVE checkpoint: rows=330 processed_this_run=180 errors=0
+2026-01-07 01:57:22,667 | INFO | AUTOSAVE checkpoint: rows=335 processed_this_run=185 errors=0
+2026-01-07 02:05:05,930 | INFO | AUTOSAVE checkpoint: rows=340 processed_this_run=190 errors=0
+2026-01-07 02:13:18,197 | INFO | AUTOSAVE checkpoint: rows=345 processed_this_run=195 errors=0
+2026-01-07 02:26:25,895 | INFO | AUTOSAVE checkpoint: rows=350 processed_this_run=200 errors=0
+2026-01-07 02:26:25,896 | INFO | Progress: +200 this run | total tagged=350 | errors=0
+2026-01-07 02:44:50,349 | INFO | AUTOSAVE checkpoint: rows=355 processed_this_run=205 errors=0
+2026-01-07 02:54:28,886 | INFO | AUTOSAVE checkpoint: rows=360 processed_this_run=210 errors=0
+2026-01-07 03:06:27,375 | INFO | AUTOSAVE checkpoint: rows=365 processed_this_run=215 errors=0
+2026-01-07 03:26:55,817 | INFO | AUTOSAVE checkpoint: rows=370 processed_this_run=220 errors=0
+2026-01-07 03:55:08,065 | INFO | AUTOSAVE checkpoint: rows=375 processed_this_run=225 errors=0
+2026-01-07 04:02:23,096 | INFO | AUTOSAVE checkpoint: rows=380 processed_this_run=230 errors=0
+2026-01-07 04:09:05,526 | INFO | AUTOSAVE checkpoint: rows=385 processed_this_run=235 errors=0
+2026-01-07 04:15:11,973 | INFO | AUTOSAVE checkpoint: rows=390 processed_this_run=240 errors=0
+2026-01-07 04:22:36,772 | INFO | AUTOSAVE checkpoint: rows=395 processed_this_run=245 errors=0
+2026-01-07 04:36:07,187 | INFO | AUTOSAVE checkpoint: rows=400 processed_this_run=250 errors=0
+2026-01-07 04:36:07,192 | INFO | Progress: +250 this run | total tagged=400 | errors=0
+2026-01-07 04:56:11,972 | INFO | AUTOSAVE checkpoint: rows=405 processed_this_run=255 errors=0
+2026-01-07 05:26:29,636 | INFO | AUTOSAVE checkpoint: rows=410 processed_this_run=260 errors=0
+2026-01-07 05:44:11,485 | INFO | AUTOSAVE checkpoint: rows=415 processed_this_run=265 errors=0
+2026-01-07 05:59:48,626 | INFO | AUTOSAVE checkpoint: rows=420 processed_this_run=270 errors=0
+2026-01-07 06:30:25,352 | INFO | AUTOSAVE checkpoint: rows=425 processed_this_run=275 errors=0
+2026-01-07 06:39:30,789 | INFO | AUTOSAVE checkpoint: rows=430 processed_this_run=280 errors=0
+2026-01-07 06:53:08,729 | INFO | AUTOSAVE checkpoint: rows=435 processed_this_run=285 errors=0
+2026-01-07 07:04:27,852 | INFO | AUTOSAVE checkpoint: rows=440 processed_this_run=290 errors=0
+2026-01-07 07:15:05,939 | INFO | AUTOSAVE checkpoint: rows=445 processed_this_run=295 errors=0
+2026-01-07 07:24:23,631 | INFO | AUTOSAVE checkpoint: rows=450 processed_this_run=300 errors=0
+2026-01-07 07:24:23,636 | INFO | Progress: +300 this run | total tagged=450 | errors=0
+2026-01-07 07:44:17,184 | INFO | AUTOSAVE checkpoint: rows=455 processed_this_run=305 errors=0
+2026-01-07 07:55:35,991 | INFO | AUTOSAVE checkpoint: rows=460 processed_this_run=310 errors=0
+2026-01-07 09:09:04,378 | INFO | AUTOSAVE checkpoint: rows=465 processed_this_run=315 errors=0
+2026-01-07 09:26:38,617 | INFO | AUTOSAVE checkpoint: rows=470 processed_this_run=320 errors=0
+2026-01-07 09:40:20,696 | INFO | AUTOSAVE checkpoint: rows=475 processed_this_run=325 errors=0
+2026-01-07 09:56:15,149 | INFO | AUTOSAVE checkpoint: rows=480 processed_this_run=330 errors=0
+2026-01-07 10:09:21,880 | INFO | AUTOSAVE checkpoint: rows=485 processed_this_run=335 errors=0
+2026-01-07 10:39:35,479 | INFO | AUTOSAVE checkpoint: rows=490 processed_this_run=340 errors=0
+2026-01-07 11:11:19,324 | INFO | AUTOSAVE checkpoint: rows=495 processed_this_run=345 errors=0
+2026-01-07 11:19:38,326 | INFO | AUTOSAVE checkpoint: rows=500 processed_this_run=350 errors=0
+2026-01-07 11:19:38,329 | INFO | Progress: +350 this run | total tagged=500 | errors=0
+2026-01-07 11:28:38,059 | INFO | AUTOSAVE checkpoint: rows=505 processed_this_run=355 errors=0
+2026-01-07 11:40:12,721 | INFO | AUTOSAVE checkpoint: rows=510 processed_this_run=360 errors=0
+2026-01-07 11:52:59,666 | INFO | AUTOSAVE checkpoint: rows=515 processed_this_run=365 errors=0
+2026-01-07 12:04:12,523 | INFO | AUTOSAVE checkpoint: rows=520 processed_this_run=370 errors=0
+2026-01-07 12:13:58,734 | INFO | AUTOSAVE checkpoint: rows=525 processed_this_run=375 errors=0
+2026-01-07 12:23:09,835 | INFO | AUTOSAVE checkpoint: rows=530 processed_this_run=380 errors=0
+2026-01-07 12:31:50,238 | INFO | AUTOSAVE checkpoint: rows=535 processed_this_run=385 errors=0
+2026-01-07 12:41:10,504 | INFO | AUTOSAVE checkpoint: rows=540 processed_this_run=390 errors=0
+2026-01-07 12:51:09,464 | INFO | AUTOSAVE checkpoint: rows=545 processed_this_run=395 errors=0
+2026-01-07 13:03:05,850 | INFO | AUTOSAVE checkpoint: rows=550 processed_this_run=400 errors=0
+2026-01-07 13:03:05,857 | INFO | Progress: +400 this run | total tagged=550 | errors=0
+2026-01-07 13:14:39,760 | INFO | AUTOSAVE checkpoint: rows=555 processed_this_run=405 errors=0
+2026-01-07 13:23:47,720 | INFO | AUTOSAVE checkpoint: rows=560 processed_this_run=410 errors=0
+2026-01-07 13:32:04,086 | INFO | AUTOSAVE checkpoint: rows=565 processed_this_run=415 errors=0
+2026-01-07 13:40:49,819 | INFO | AUTOSAVE checkpoint: rows=570 processed_this_run=420 errors=0
+2026-01-07 13:51:41,634 | INFO | AUTOSAVE checkpoint: rows=575 processed_this_run=425 errors=0
+2026-01-07 14:02:37,293 | INFO | AUTOSAVE checkpoint: rows=580 processed_this_run=430 errors=0
+2026-01-07 14:09:42,055 | INFO | AUTOSAVE checkpoint: rows=585 processed_this_run=435 errors=0
+2026-01-07 14:19:52,994 | INFO | AUTOSAVE checkpoint: rows=590 processed_this_run=440 errors=0
+2026-01-07 14:29:42,467 | INFO | AUTOSAVE checkpoint: rows=595 processed_this_run=445 errors=0
+2026-01-07 14:37:44,369 | INFO | AUTOSAVE checkpoint: rows=600 processed_this_run=450 errors=0
+2026-01-07 14:37:44,371 | INFO | Progress: +450 this run | total tagged=600 | errors=0
+2026-01-07 14:45:30,957 | INFO | AUTOSAVE checkpoint: rows=605 processed_this_run=455 errors=0
+2026-01-07 14:53:13,610 | INFO | AUTOSAVE checkpoint: rows=610 processed_this_run=460 errors=0
+2026-01-07 15:01:08,361 | INFO | AUTOSAVE checkpoint: rows=615 processed_this_run=465 errors=0
+2026-01-07 15:07:35,287 | INFO | AUTOSAVE checkpoint: rows=620 processed_this_run=470 errors=0
+2026-01-07 15:15:06,883 | INFO | AUTOSAVE checkpoint: rows=625 processed_this_run=475 errors=0
+2026-01-07 15:24:15,221 | INFO | AUTOSAVE checkpoint: rows=630 processed_this_run=480 errors=0
+2026-01-07 15:31:36,674 | INFO | AUTOSAVE checkpoint: rows=635 processed_this_run=485 errors=0
+2026-01-07 15:38:34,206 | INFO | AUTOSAVE checkpoint: rows=640 processed_this_run=490 errors=0
+2026-01-07 15:45:53,491 | INFO | AUTOSAVE checkpoint: rows=645 processed_this_run=495 errors=0
+2026-01-07 15:56:32,008 | INFO | AUTOSAVE checkpoint: rows=650 processed_this_run=500 errors=0
+2026-01-07 15:56:32,021 | INFO | Progress: +500 this run | total tagged=650 | errors=0
+2026-01-07 16:03:47,239 | INFO | AUTOSAVE checkpoint: rows=655 processed_this_run=505 errors=0
+2026-01-07 16:09:01,435 | INFO | AUTOSAVE checkpoint: rows=660 processed_this_run=510 errors=0
+2026-01-07 16:19:17,687 | INFO | AUTOSAVE checkpoint: rows=665 processed_this_run=515 errors=0
+2026-01-07 16:27:26,105 | INFO | AUTOSAVE checkpoint: rows=670 processed_this_run=520 errors=0
+2026-01-07 16:36:28,696 | INFO | AUTOSAVE checkpoint: rows=675 processed_this_run=525 errors=0
+2026-01-07 16:45:40,763 | INFO | AUTOSAVE checkpoint: rows=680 processed_this_run=530 errors=0
+2026-01-07 16:58:24,974 | INFO | AUTOSAVE checkpoint: rows=685 processed_this_run=535 errors=0
+2026-01-07 17:15:09,867 | INFO | AUTOSAVE checkpoint: rows=690 processed_this_run=540 errors=0
+2026-01-07 18:08:55,620 | INFO | AUTOSAVE checkpoint: rows=695 processed_this_run=545 errors=0
+2026-01-07 18:14:49,389 | INFO | AUTOSAVE checkpoint: rows=700 processed_this_run=550 errors=0
+2026-01-07 18:14:49,390 | INFO | Progress: +550 this run | total tagged=700 | errors=0
+2026-01-07 18:21:46,838 | INFO | AUTOSAVE checkpoint: rows=705 processed_this_run=555 errors=0
+2026-01-07 18:29:09,807 | INFO | AUTOSAVE checkpoint: rows=710 processed_this_run=560 errors=0
+2026-01-07 18:37:36,358 | INFO | AUTOSAVE checkpoint: rows=715 processed_this_run=565 errors=0
+2026-01-07 18:50:12,765 | INFO | AUTOSAVE checkpoint: rows=720 processed_this_run=570 errors=0
+2026-01-07 19:00:57,703 | INFO | AUTOSAVE checkpoint: rows=725 processed_this_run=575 errors=0
+2026-01-07 19:10:50,028 | INFO | AUTOSAVE checkpoint: rows=730 processed_this_run=580 errors=0
+2026-01-07 19:20:38,978 | INFO | AUTOSAVE checkpoint: rows=735 processed_this_run=585 errors=0
+2026-01-07 19:30:21,393 | INFO | AUTOSAVE checkpoint: rows=740 processed_this_run=590 errors=0
+2026-01-07 19:39:51,007 | INFO | AUTOSAVE checkpoint: rows=745 processed_this_run=595 errors=0
+2026-01-07 19:48:27,329 | INFO | AUTOSAVE checkpoint: rows=750 processed_this_run=600 errors=0
+2026-01-07 19:48:27,333 | INFO | Progress: +600 this run | total tagged=750 | errors=0
+2026-01-07 19:55:17,269 | INFO | AUTOSAVE checkpoint: rows=755 processed_this_run=605 errors=0
+2026-01-07 20:00:56,130 | INFO | AUTOSAVE checkpoint: rows=760 processed_this_run=610 errors=0
+2026-01-07 20:08:57,512 | INFO | AUTOSAVE checkpoint: rows=765 processed_this_run=615 errors=0
+2026-01-07 20:18:20,666 | INFO | AUTOSAVE checkpoint: rows=770 processed_this_run=620 errors=0
+2026-01-07 20:39:18,782 | INFO | AUTOSAVE checkpoint: rows=775 processed_this_run=625 errors=0
+2026-01-07 20:55:37,195 | INFO | AUTOSAVE checkpoint: rows=780 processed_this_run=630 errors=0
+2026-01-07 21:04:49,138 | INFO | AUTOSAVE checkpoint: rows=785 processed_this_run=635 errors=0
+2026-01-07 21:25:28,596 | INFO | AUTOSAVE checkpoint: rows=790 processed_this_run=640 errors=0
+2026-01-07 21:35:35,026 | INFO | AUTOSAVE checkpoint: rows=795 processed_this_run=645 errors=0
+2026-01-07 21:45:31,762 | INFO | AUTOSAVE checkpoint: rows=800 processed_this_run=650 errors=0
+2026-01-07 21:45:31,763 | INFO | Progress: +650 this run | total tagged=800 | errors=0
+2026-01-07 21:53:43,238 | INFO | AUTOSAVE checkpoint: rows=805 processed_this_run=655 errors=0
+2026-01-07 21:57:10,818 | INFO | AUTOSAVE checkpoint: rows=810 processed_this_run=660 errors=0
+2026-01-07 22:05:44,737 | INFO | AUTOSAVE checkpoint: rows=815 processed_this_run=665 errors=0
+2026-01-07 22:23:05,568 | INFO | AUTOSAVE checkpoint: rows=820 processed_this_run=670 errors=0
+2026-01-07 22:35:15,827 | INFO | AUTOSAVE checkpoint: rows=825 processed_this_run=675 errors=0
+2026-01-07 22:43:38,961 | INFO | AUTOSAVE checkpoint: rows=830 processed_this_run=680 errors=0
+2026-01-07 22:56:34,842 | INFO | AUTOSAVE checkpoint: rows=835 processed_this_run=685 errors=0
+2026-01-07 23:13:01,002 | INFO | AUTOSAVE checkpoint: rows=840 processed_this_run=690 errors=0
+2026-01-07 23:31:19,017 | INFO | AUTOSAVE checkpoint: rows=845 processed_this_run=695 errors=0
+2026-01-07 23:42:59,194 | INFO | AUTOSAVE checkpoint: rows=850 processed_this_run=700 errors=0
+2026-01-07 23:42:59,194 | INFO | Progress: +700 this run | total tagged=850 | errors=0
+2026-01-08 02:58:25,522 | INFO | AUTOSAVE checkpoint: rows=855 processed_this_run=705 errors=0
+2026-01-08 03:03:23,916 | INFO | AUTOSAVE checkpoint: rows=860 processed_this_run=710 errors=0
+2026-01-08 03:13:49,238 | INFO | AUTOSAVE checkpoint: rows=865 processed_this_run=715 errors=0
+2026-01-08 03:26:54,509 | INFO | AUTOSAVE checkpoint: rows=870 processed_this_run=720 errors=0
+2026-01-08 03:35:01,784 | INFO | AUTOSAVE checkpoint: rows=875 processed_this_run=725 errors=0
+2026-01-08 03:41:55,499 | INFO | AUTOSAVE checkpoint: rows=880 processed_this_run=730 errors=0
+2026-01-08 03:48:37,323 | INFO | AUTOSAVE checkpoint: rows=885 processed_this_run=735 errors=0
+2026-01-08 03:52:38,077 | INFO | AUTOSAVE checkpoint: rows=890 processed_this_run=740 errors=0
+2026-01-08 03:58:52,020 | INFO | AUTOSAVE checkpoint: rows=895 processed_this_run=745 errors=0
+2026-01-08 04:05:46,979 | INFO | AUTOSAVE checkpoint: rows=900 processed_this_run=750 errors=0
+2026-01-08 04:05:46,980 | INFO | Progress: +750 this run | total tagged=900 | errors=0
+2026-01-08 04:13:43,715 | INFO | AUTOSAVE checkpoint: rows=905 processed_this_run=755 errors=0
+2026-01-08 04:23:35,176 | INFO | AUTOSAVE checkpoint: rows=910 processed_this_run=760 errors=0
+2026-01-08 04:32:00,271 | INFO | AUTOSAVE checkpoint: rows=915 processed_this_run=765 errors=0
+2026-01-08 04:39:38,879 | INFO | AUTOSAVE checkpoint: rows=920 processed_this_run=770 errors=0
+2026-01-08 04:48:38,328 | INFO | AUTOSAVE checkpoint: rows=925 processed_this_run=775 errors=0
+2026-01-08 04:58:05,213 | INFO | AUTOSAVE checkpoint: rows=930 processed_this_run=780 errors=0
+2026-01-08 05:04:24,149 | INFO | AUTOSAVE checkpoint: rows=935 processed_this_run=785 errors=0
+2026-01-08 05:09:36,704 | INFO | AUTOSAVE checkpoint: rows=940 processed_this_run=790 errors=0
+2026-01-08 05:15:38,283 | INFO | AUTOSAVE checkpoint: rows=945 processed_this_run=795 errors=0
+2026-01-08 05:21:52,301 | INFO | AUTOSAVE checkpoint: rows=950 processed_this_run=800 errors=0
+2026-01-08 05:21:52,301 | INFO | Progress: +800 this run | total tagged=950 | errors=0
+2026-01-08 05:28:05,771 | INFO | AUTOSAVE checkpoint: rows=955 processed_this_run=805 errors=0
+2026-01-08 05:33:46,180 | INFO | AUTOSAVE checkpoint: rows=960 processed_this_run=810 errors=0
+2026-01-08 05:36:41,777 | INFO | AUTOSAVE checkpoint: rows=965 processed_this_run=815 errors=0
+2026-01-08 08:05:40,581 | INFO | AUTOSAVE checkpoint: rows=970 processed_this_run=820 errors=0
+2026-01-08 08:13:33,382 | INFO | AUTOSAVE checkpoint: rows=975 processed_this_run=825 errors=0
+2026-01-08 08:20:44,072 | INFO | AUTOSAVE checkpoint: rows=980 processed_this_run=830 errors=0
+2026-01-08 08:28:56,001 | INFO | AUTOSAVE checkpoint: rows=985 processed_this_run=835 errors=0
+2026-01-08 08:35:35,410 | INFO | AUTOSAVE checkpoint: rows=990 processed_this_run=840 errors=0
+2026-01-08 08:42:37,263 | INFO | AUTOSAVE checkpoint: rows=995 processed_this_run=845 errors=0
+2026-01-08 08:48:30,885 | INFO | AUTOSAVE checkpoint: rows=1000 processed_this_run=850 errors=0
+2026-01-08 08:48:30,885 | INFO | Progress: +850 this run | total tagged=1000 | errors=0
+2026-01-08 08:55:08,047 | INFO | AUTOSAVE checkpoint: rows=1005 processed_this_run=855 errors=0
+2026-01-08 09:01:59,030 | INFO | AUTOSAVE checkpoint: rows=1010 processed_this_run=860 errors=0
+2026-01-08 09:08:12,474 | INFO | AUTOSAVE checkpoint: rows=1015 processed_this_run=865 errors=0
+2026-01-08 09:15:46,254 | INFO | AUTOSAVE checkpoint: rows=1020 processed_this_run=870 errors=0
+2026-01-08 09:25:18,177 | INFO | AUTOSAVE checkpoint: rows=1025 processed_this_run=875 errors=0
+2026-01-08 09:34:22,110 | INFO | AUTOSAVE checkpoint: rows=1030 processed_this_run=880 errors=0
+2026-01-08 09:39:51,341 | INFO | AUTOSAVE checkpoint: rows=1035 processed_this_run=885 errors=0
+2026-01-08 09:46:19,480 | INFO | AUTOSAVE checkpoint: rows=1040 processed_this_run=890 errors=0
+2026-01-08 09:57:28,177 | INFO | AUTOSAVE checkpoint: rows=1045 processed_this_run=895 errors=0
+2026-01-08 10:10:56,703 | INFO | AUTOSAVE checkpoint: rows=1050 processed_this_run=900 errors=0
+2026-01-08 10:10:56,703 | INFO | Progress: +900 this run | total tagged=1050 | errors=0
+2026-01-08 10:34:59,623 | INFO | AUTOSAVE checkpoint: rows=1055 processed_this_run=905 errors=0
+2026-01-08 10:53:36,910 | INFO | AUTOSAVE checkpoint: rows=1060 processed_this_run=910 errors=0
+2026-01-08 11:02:31,749 | INFO | AUTOSAVE checkpoint: rows=1065 processed_this_run=915 errors=0
+2026-01-08 11:15:52,921 | INFO | AUTOSAVE checkpoint: rows=1070 processed_this_run=920 errors=0
+2026-01-08 11:28:32,721 | INFO | AUTOSAVE checkpoint: rows=1075 processed_this_run=925 errors=0
+2026-01-08 11:35:48,087 | INFO | AUTOSAVE checkpoint: rows=1080 processed_this_run=930 errors=0
+2026-01-08 11:44:43,931 | INFO | AUTOSAVE checkpoint: rows=1085 processed_this_run=935 errors=0
+2026-01-08 11:52:49,679 | INFO | AUTOSAVE checkpoint: rows=1090 processed_this_run=940 errors=0
+2026-01-08 12:03:16,887 | INFO | AUTOSAVE checkpoint: rows=1095 processed_this_run=945 errors=0
+2026-01-08 12:12:38,577 | INFO | AUTOSAVE checkpoint: rows=1100 processed_this_run=950 errors=0
+2026-01-08 12:12:38,577 | INFO | Progress: +950 this run | total tagged=1100 | errors=0
+2026-01-08 12:42:18,786 | INFO | AUTOSAVE checkpoint: rows=1105 processed_this_run=955 errors=0
+2026-01-08 12:57:34,522 | INFO | AUTOSAVE checkpoint: rows=1110 processed_this_run=960 errors=0
+2026-01-08 13:03:40,947 | INFO | AUTOSAVE checkpoint: rows=1115 processed_this_run=965 errors=0
+2026-01-08 13:10:23,511 | INFO | AUTOSAVE checkpoint: rows=1120 processed_this_run=970 errors=0
+2026-01-08 13:17:12,004 | INFO | AUTOSAVE checkpoint: rows=1125 processed_this_run=975 errors=0
+2026-01-08 13:25:12,982 | INFO | AUTOSAVE checkpoint: rows=1130 processed_this_run=980 errors=0
+2026-01-08 13:33:54,061 | INFO | AUTOSAVE checkpoint: rows=1135 processed_this_run=985 errors=0
+2026-01-08 13:39:46,405 | INFO | AUTOSAVE checkpoint: rows=1140 processed_this_run=990 errors=0
+2026-01-08 13:48:01,537 | INFO | AUTOSAVE checkpoint: rows=1145 processed_this_run=995 errors=0
+2026-01-08 13:56:11,328 | INFO | AUTOSAVE checkpoint: rows=1150 processed_this_run=1000 errors=0
+2026-01-08 13:56:11,330 | INFO | Progress: +1000 this run | total tagged=1150 | errors=0
+2026-01-08 14:02:38,905 | INFO | AUTOSAVE checkpoint: rows=1155 processed_this_run=1005 errors=0
+2026-01-08 14:09:07,345 | INFO | AUTOSAVE checkpoint: rows=1160 processed_this_run=1010 errors=0
+2026-01-08 14:14:32,498 | INFO | AUTOSAVE checkpoint: rows=1165 processed_this_run=1015 errors=0
+2026-01-08 14:19:24,362 | INFO | AUTOSAVE checkpoint: rows=1170 processed_this_run=1020 errors=0
+2026-01-08 14:26:35,145 | INFO | AUTOSAVE checkpoint: rows=1175 processed_this_run=1025 errors=0
+2026-01-08 14:34:48,506 | INFO | AUTOSAVE checkpoint: rows=1180 processed_this_run=1030 errors=0
+2026-01-08 14:43:32,640 | INFO | AUTOSAVE checkpoint: rows=1185 processed_this_run=1035 errors=0
+2026-01-08 14:52:24,625 | INFO | AUTOSAVE checkpoint: rows=1190 processed_this_run=1040 errors=0
+2026-01-08 14:59:55,273 | INFO | AUTOSAVE checkpoint: rows=1195 processed_this_run=1045 errors=0
+2026-01-08 15:09:55,754 | INFO | AUTOSAVE checkpoint: rows=1200 processed_this_run=1050 errors=0
+2026-01-08 15:09:55,869 | INFO | Progress: +1050 this run | total tagged=1200 | errors=0
+2026-01-08 15:18:14,043 | INFO | AUTOSAVE checkpoint: rows=1205 processed_this_run=1055 errors=0
+2026-01-08 15:27:02,525 | INFO | AUTOSAVE checkpoint: rows=1210 processed_this_run=1060 errors=0
+2026-01-08 15:33:48,824 | INFO | AUTOSAVE checkpoint: rows=1215 processed_this_run=1065 errors=0
+2026-01-08 15:40:20,369 | INFO | AUTOSAVE checkpoint: rows=1220 processed_this_run=1070 errors=0
+2026-01-08 15:47:10,468 | INFO | AUTOSAVE checkpoint: rows=1225 processed_this_run=1075 errors=0
+2026-01-08 18:04:30,221 | INFO | AUTOSAVE checkpoint: rows=1230 processed_this_run=1080 errors=0
+2026-01-08 18:09:49,382 | INFO | AUTOSAVE checkpoint: rows=1235 processed_this_run=1085 errors=0
+2026-01-08 18:16:58,669 | INFO | AUTOSAVE checkpoint: rows=1240 processed_this_run=1090 errors=0
+2026-01-08 18:24:18,827 | INFO | AUTOSAVE checkpoint: rows=1245 processed_this_run=1095 errors=0
+2026-01-08 18:31:40,405 | INFO | AUTOSAVE checkpoint: rows=1250 processed_this_run=1100 errors=0
+2026-01-08 18:31:40,406 | INFO | Progress: +1100 this run | total tagged=1250 | errors=0
+2026-01-08 18:42:26,076 | INFO | AUTOSAVE checkpoint: rows=1255 processed_this_run=1105 errors=0

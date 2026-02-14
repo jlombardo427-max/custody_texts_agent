@@ -1,0 +1,21 @@
+[2026-01-05 00:20:59] ============================================================
+[2026-01-05 00:20:59] Starting tagger.py
+[2026-01-05 00:20:59] Model: custody-mistral
+[2026-01-05 00:20:59] Context: 4 before, 4 after
+[2026-01-05 00:20:59] Checkpoint interval: 5 messages
+[2026-01-05 00:20:59] ============================================================
+[2026-01-05 00:20:59] Loading messages from data/working/messages_normalized.csv
+[2026-01-05 00:20:59] Loaded 8057 messages
+[2026-01-05 00:20:59] Processing dates and sorting...
+[2026-01-05 00:20:59] Found 1 thread(s) with 8057 total message(s)
+[2026-01-05 00:20:59] Progress log: data/output/tagger_progress.log
+[2026-01-05 00:20:59] Autosave: data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv (every 5 messages)
+[2026-01-05 00:20:59] THREAD 1/1: Starting thread_id=Kirby Eldredge (8057 messages)
+[2026-01-05 00:31:37]   AUTOSAVE: Saved 5/8057 messages to data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv
+[2026-01-05 00:36:39]   ERROR at message 7: ollama_failed: Illegal trailing comma before end of object: line 6 column 141 (char 305)
+[2026-01-05 00:43:35]   AUTOSAVE: Saved 10/8057 messages to data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv
+[2026-01-05 00:56:42]   AUTOSAVE: Saved 15/8057 messages to data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv
+[2026-01-05 01:07:51]   ERROR at message 20: ollama_failed: Illegal trailing comma before end of object: line 6 column 215 (char 379)
+[2026-01-05 01:07:51]   AUTOSAVE: Saved 20/8057 messages to data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv
+[2026-01-05 01:22:24]   AUTOSAVE: Saved 25/8057 messages to data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv
+[2026-01-05 01:33:16]   AUTOSAVE: Saved 30/8057 messages to data/output/messages_tagged.csv and data/output/messages_tagged_checkpoint.csv
