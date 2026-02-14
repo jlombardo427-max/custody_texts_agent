@@ -1,0 +1,9 @@
+case_id,thread_id,dt,sender_role,text,expected_categories,expected_time_subtype,expected_school_subtype,notes
+1,t1,2025-01-01T17:40:00,THEM,"I'm not bringing them for pickup today.",court_order_time_interference,refusal_withholding,,clear refusal
+2,t1,2025-01-01T17:50:00,THEM,"Running 10 minutes late because of traffic.",,,,"should NOT be time interference"
+3,t2,2025-02-10T07:10:00,THEM,"He was absent again and it was unexcused.",school_issues,,attendance_unexcused_absence,attendance
+4,t2,2025-02-10T07:11:00,THEM,"His report card shows he's failing math.",school_issues,,bad_grades_failing,grades
+5,t3,2025-03-01T09:00:00,THEM,"You never told me about the meeting.",feigned_ignorance_or_message_avoidance,,,denial of awareness; needs context in real threads
+6,t3,2025-03-01T09:05:00,THEM,"I'm not reading all that. Stop texting.",feigned_ignorance_or_message_avoidance,,,refusal to read
+7,t4,2025-03-10T16:00:00,THEM,"If you don't pay me, you won't see them.",manipulation_coercion,,,conditional access
+8,t5,2025-03-15T12:00:00,THEM,"That never happened. You're imagining things.",gaslighting,,,classic gaslight
