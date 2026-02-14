@@ -1,100 +1,107 @@
-from docx import Document
-from docx.shared import Pt
 import pandas as pd
+from docx import Document
+from docx.shared import Pt, Inches
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 import os
 
 def export_to_word(incident_csv, output_path):
     """
-    STRICT v3.2 Verified Word Export with Summary Index:
-    - PASS 1: Generates a Table of Contents (Summary Index) for quick judicial review.
-    - PASS 2: Generates detailed Incident Cards with verified metadata.
-    - Injects Row # and Message ID for N.J.R.E. 901 authentication.
+    STRICT v3.8.4 Litigation-Ready Word Export:
+    - PASS 1: Summary Exhibit Index (TOC) for quick judicial review.
+    - PASS 2: Detailed Evidence Cards grouped by Legal Category.
+    - N.J.R.E. 901 Traceability: Injects Row # and Message ID.
     """
     if not os.path.exists(incident_csv):
-        print(f"Error: {incident_csv} not found. Ensure incidents.py has run successfully.")
-        return
+        print(f"Error: {incident_csv} not found.")
+        return False
 
+    # Load and prepare data
     df = pd.read_csv(incident_csv)
-    # Ensure chronological order for the report
-    if 'dt' in df.columns:
-        df['dt'] = pd.to_datetime(df['dt'])
-        df = df.sort_values(by='dt')
+    df['dt'] = pd.to_datetime(df['dt'])
+    df = df.sort_values(by=['category', 'dt'])
 
     doc = Document()
+
+    # --- 1. LEGAL HEADER & CERTIFICATION ---
+    title = doc.add_heading('CERTIFIED REPORT OF CUSTODY INCIDENTS', 0)
+    title.alignment = WD_ALIGN_PARAGRAPH.CENTER
     
-    # --- DOCUMENT HEADING ---
-    doc.add_heading('Custody Incident Log - Certified Legal Summary', 0)
+    subtitle = doc.add_paragraph(f"Generated on: {pd.Timestamp.now().strftime('%Y-%m-%d %H:%M')}")
+    subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     
-    # --- PASS 1: EXHIBIT INDEX SUMMARY (TOC) ---
-    # This section allows a judge to see the pattern of behavior at a glance.
+    doc.add_paragraph(
+        "This report summarizes identified incidents from digital communication logs "
+        "cross-referenced against NJSA 9:2-4 legal standards. Each exhibit is indexed "
+        "to source data for forensic verification."
+    )
+
+    # --- 2. PASS 1: EXHIBIT INDEX SUMMARY (TOC) ---
     doc.add_heading('Exhibit Index Summary', level=1)
     
-    # Create table for TOC
     table = doc.add_table(rows=1, cols=3)
     table.style = 'Table Grid'
-    
-    # Set Header Cells
     hdr_cells = table.rows[0].cells
-    hdr_cells[0].text = 'Exhibit ID'
-    hdr_cells[1].text = 'Date'
-    hdr_cells[2].text = 'Legal Category'
+    hdr_cells[0].text, hdr_cells[1].text, hdr_cells[2].text = 'Exhibit ID', 'Date', 'Legal Category'
     
-    # Formatting headers to be bold
     for cell in hdr_cells:
         for paragraph in cell.paragraphs:
-            run = paragraph.runs[0]
-            run.bold = True
+            paragraph.runs[0].bold = True
 
-    # Populate Summary Index rows
     for _, row in df.iterrows():
         row_cells = table.add_row().cells
         row_cells[0].text = str(row['exhibit_id'])
-        row_cells[1].text = str(row['dt'].strftime('%Y-%m-%d %H:%M') if isinstance(row['dt'], pd.Timestamp) else row['dt'])
+        row_cells[1].text = row['dt'].strftime('%Y-%m-%d %H:%M')
         row_cells[2].text = str(row['category']).upper().replace('_', ' ')
 
-    # Add a page break so the cards start on a fresh page
-    doc.add_page_break()
-
-    # --- PASS 2: DETAILED INCIDENT CARDS ---
-    doc.add_heading('Detailed Exhibit Evidence', level=1)
-
-    for _, row in df.iterrows():
-        # 1. Exhibit Header (e.g., EXHIBIT A-001)
-        p = doc.add_paragraph()
-        exhibit_run = p.add_run(f"{str(row['exhibit_id']).upper()}")
-        exhibit_run.bold = True
-        exhibit_run.font.size = Pt(14)
+    # --- 3. PASS 2: DETAILED EVIDENCE CHAPTERS ---
+    for category in df['category'].unique():
+        doc.add_page_break()
+        chapter_title = category.replace('_', ' ').upper()
+        doc.add_heading(f"CHAPTER: {chapter_title}", level=1)
         
-        # 2. Metadata Block
-        doc.add_paragraph(f"Date/Time: {row['dt']}")
-        doc.add_paragraph(f"Legal Category: {str(row['category']).upper().replace('_', ' ')}")
+        cat_df = df[df['category'] == category]
         
-        # 3. Authenticity Footer (N.J.R.E. 901 Paper Trail)
-        metadata = doc.add_paragraph()
-        meta_run = metadata.add_run(
-            f"VERIFIED SOURCE DATA | Source Row: {row['raw_row_number']} | Unique Message ID: {row['message_id']}"
-        )
-        meta_run.font.size = Pt(8)
-        meta_run.italic = True
+        for _, row in cat_df.iterrows():
+            # Exhibit ID Header
+            p = doc.add_paragraph()
+            exhibit_run = p.add_run(f"EXHIBIT {str(row['exhibit_id']).upper()}")
+            exhibit_run.bold = True
+            exhibit_run.font.size = Pt(13)
 
-        # 4. Evidence Text (Italicized blockquote style)
-        msg_box = doc.add_paragraph()
-        msg_box.add_run(f"Evidence Text: \"{row['text']}\"").italic = True
-        
-        # 5. Analysis (AI Legal Reasoning)
-        doc.add_paragraph(f"Analysis: {row['reasoning']}")
-        
-        # 6. Visual Divider
-        doc.add_paragraph("_" * 50)
+            # Authenticity Footer (N.J.R.E. 901 Paper Trail)
+            metadata = doc.add_paragraph()
+            meta_text = (f"VERIFIED SOURCE DATA | Row: {row.get('raw_row_number', 'N/A')} | "
+                         f"Date: {row['dt'].strftime('%Y-%m-%d %H:%M')} | "
+                         f"ID: {row.get('message_id', 'N/A')}")
+            meta_run = metadata.add_run(meta_text)
+            meta_run.font.size = Pt(8)
+            meta_run.italic = True
+            metadata.paragraph_format.left_indent = Inches(0.5)
 
-    # Ensure output directory exists and save
+            # Evidence Text (Blockquote style)
+            doc.add_paragraph("Evidence Quote:").runs[0].bold = True
+            quote = doc.add_paragraph()
+            quote.add_run(f"\"{row.get('evidence_quote', row.get('text', ''))}\"").italic = True
+            quote.paragraph_format.left_indent = Inches(0.75)
+            
+            # AI Reasoning
+            reason = doc.add_paragraph()
+            reason_run = reason.add_run(f"Legal Reasoning: {row['reasoning']}")
+            reason_run.bold = True
+            reason.paragraph_format.left_indent = Inches(0.5)
+            
+            doc.add_paragraph("_" * 60) # Visual separator
+
+    # --- 4. FOOTER ---
+    section = doc.sections[0]
+    footer = section.footer
+    footer.paragraphs[0].text = "STRICT v3.8.4 | Giuseppe Lombardo - Confidential Legal Work Product | Page "
+
+    # Save logic
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     doc.save(output_path)
-    print(f"Final Certified Report with Index generated: {output_path}")
+    print(f"Final Report Generated: {output_path}")
+    return True
 
 if __name__ == "__main__":
-    # Standardized project paths
-    export_to_word(
-        incident_csv="data/output/incident_index.csv", 
-        output_path="data/output/Custody_Exhibits_Final_Report.docx"
-    )
+    export_to_word("data/output/incident_index.csv", "data/output/Certified_Custody_Report.docx")
